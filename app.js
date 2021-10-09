@@ -26,6 +26,7 @@ const exp = [
   document.getElementById("exp6"),
   document.getElementById("exp7"),
 ];
+
 const gameTime = 60;
 const tanks = [
   {
@@ -52,11 +53,13 @@ const tankStates = {
   Exploded: "Exploded",
   Dead: "Dead",
 };
+
 const gameStates = {
   NotStarted: "not started",
   Running: "running",
   GameStopped: "game stopped",
 };
+
 let time;
 let state = gameStates.NotStarted;
 canvas.width = W - 8;
